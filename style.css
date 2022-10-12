@@ -1,11 +1,18 @@
-.ecabezado{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ h1{ 
+    margin: 20px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* border: 5px solid black; */
+    /* margin: 100px; */
+    /* display: flex; */
+    /* text-align: center; */
     
-}
-body{
-    background-image:url("https://blogapi.uber.com/wp-content/uploads/2018/06/PR_X-lugares-para-pasear-en-Puerto-Rico-y-disfrutar-de-unas-hermosas-vistas.jpg"); 
-    background-size: cover;
-}
+ } 
+/* body{ */
+     /* background-image:url("https://blogapi.uber.com/wp-content/uploads/2018/06/PR_X-lugares-para-pasear-en-Puerto-Rico-y-disfrutar-de-unas-hermosas-vistas.jpg");   */
+     /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* height: 100vh; */
+/* } */
 header{
     display: flex;
     flex-direction: row;
@@ -37,4 +44,23 @@ nav{
 .proyect-cards img{
     width: 200px;
     height: 200px;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid grid-template-rows: 100px auto;
+    grid-template-areas::after:
+    "header header"
+    "aside main"
+}
+
+header{
+grid-area: header;
+}
+aside{
+grid-area: aside;
+}
+main{
+grid-area: main;
 }
