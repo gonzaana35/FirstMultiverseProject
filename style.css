@@ -65,8 +65,18 @@ main{
 grid-area: main;
 }
 
-.bio imagenes{
-
+.bio-imagenes img{;
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+}
+.fotos img{
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+}
+h2{
+    text-align: center;
 }
 #cuerpo{
     background-color: antiquewhite;
