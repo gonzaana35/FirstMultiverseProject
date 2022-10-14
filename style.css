@@ -45,15 +45,6 @@ nav{
     width: 200px;
     height: 200px;
 }
-.container{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 400px auto;
-    grid grid-template-rows: 100px auto;
-    grid-template-areas::after:
-    "header header"
-    "aside main"
-}
 
 header{
 grid-area: header;

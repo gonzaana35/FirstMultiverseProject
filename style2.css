@@ -1,0 +1,50 @@
+@import url("header.css");
+html, body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 400px auto;
+     grid-template-rows: 100px auto;
+    grid-template-areas: 
+    "header header"
+    "sidebar main";
+    
+}
+
+aside{
+grid-area: sidebar;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: antiquewhite;
+border-radius: 10px;
+height: fit-content;
+margin-left: 20px;
+}
+aside img{
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 35px;
+    
+}
+aside h3{
+    font-size: 32px;
+}
+aside span{
+    height: 3px;
+    width: 80px;
+    background-color: black;
+}
+aside .socials{
+    margin: 40px;
+    font-size: 30px;
+}
+aside .socials a{
+    margin: 0 15px;
+}
+main{
+ grid-area: main; 
+}
