@@ -79,3 +79,20 @@ h2{
 #cuerpo{
     background-color: antiquewhite;
 }
+ @media screen and (max-width:767px){
+    .encabezado{
+    }
+    .principal img{
+    width: 100%;
+    }
+    .bio-imagen{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fotos img{
+        padding: 2px;
+        margin: 5px;
+        justify-content: start;
+        margin-left: 5px;
+    }
+ }
